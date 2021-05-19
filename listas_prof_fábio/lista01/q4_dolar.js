@@ -3,11 +3,13 @@
 const prompt = require('prompt-sync')()
 
 //inicio 
-const valor_do_dolar = 5.25
-const dolar = (prompt(' valor em dólar:' ))
+console.log(' Conversor de real(R$) para dolár($)')
+console.log(' (ps : coloque ponto ao invés da vírgula)')
+const valor_do_dolar = Number(prompt(' Digite a cotação do dólar($) hoje: '))
+const dolar = Number (prompt(' Digite o valor em dólar($): ' ))
 
 //processo
 const real = dolar * valor_do_dolar 
 
 // saída 
-console.log(`O valor em reais é ${real.toFixed(0)} R$`)
+console.log(` O valor em reais é: ${real.toFixed(2)} R$`)

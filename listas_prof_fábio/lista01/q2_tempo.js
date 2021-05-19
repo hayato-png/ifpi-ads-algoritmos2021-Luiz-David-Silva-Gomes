@@ -3,11 +3,12 @@
 const input = require ('prompt-sync')()
 
 //inicio 
-const horas = Number(input('Digite alguma hora :' ))
-const minutos = Number(input('Digite os minutos :' ))
+console.log(' Conversor de hora(s) minuto(s) para minuto(s). ')
+const horas = Number(input(' digite a(s) hora(s): ' ))
+const minutos = Number(input(' digite o(s) minuto(s): ' ))
 
 //processo
 const horas_minutos = horas * 60 + minutos 
 
 //saída
-console.log(`${horas} horas e ${minutos} minutos equivalem a: ${horas_minutos} minutos` ) 
+console.log(`${horas} hora(s) e ${minutos} minuto(s) equivalem a: ${horas_minutos} minutos` ) 
