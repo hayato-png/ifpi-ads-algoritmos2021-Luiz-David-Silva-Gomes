@@ -3,11 +3,12 @@
 let input = require('prompt-sync')()
 
 //inicio 
-let minuto = Number(input( ' Digite os minutos: '))
+console.log(' digite um valor em minutos e veja o equivalente em horas e minutos')
+let minuto = Number(input( 'Digite os minutos: '))
 
 //processo  
-let horas = minuto / 60
+let horas = Math.trunc (minuto / 60)
 let horas_minutos  = minuto % 60
 
 //saída
-console.log(` o valor em horas é ${horas} hrs e ${horas_minutos} min `)
+console.log(` o valor em horas é: ${horas} hora(s) e ${horas_minutos} minuto(s) `)

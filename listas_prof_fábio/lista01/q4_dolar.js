@@ -3,9 +3,9 @@
 const prompt = require('prompt-sync')()
 
 //inicio 
-console.log(' Conversor de real(R$) para dolár($)')
+console.log(' conversor de real(R$) para dolár($)')
 console.log(' (ps : coloque ponto ao invés da vírgula)')
-const valor_do_dolar = Number(prompt(' Digite a cotação do dólar($) hoje: '))
+const valor_do_dolar = Number(prompt(' Digite a cotação do dólar($) de hoje: '))
 const dolar = Number (prompt(' Digite o valor em dólar($): ' ))
 
 //processo

@@ -3,8 +3,8 @@
 const input = require ('prompt-sync')()
 
 //inicio 
-console.log(' Conversor de hora(s) minuto(s) para minuto(s). ')
-const horas = Number(input(' digite a(s) hora(s): ' ))
+console.log(' conversor de horas, minutos para minutos. ')
+const horas = Number(input(' digite as horas: ' ))
 const minutos = Number(input(' digite o(s) minuto(s): ' ))
 
 //processo
